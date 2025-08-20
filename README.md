@@ -12,6 +12,8 @@ git push
 # :> Set Repo <: #
 
 ```
+git init
+git remote add origin https://github.com/Mr-Beta-Version/REPONAME.git
 git remote set-url origin https://github.com/Mr-Beta-Version/REPONAME.git
 git remote -v
 
