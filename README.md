@@ -5,8 +5,9 @@
 ```
 git add .
 git commit -m "New Update"
+git branch
 git push --force origin main
-git push
+git push -u origin master
 
 ```
 
