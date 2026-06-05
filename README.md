@@ -21,6 +21,19 @@ git remote -v
 
 ```
 
+Show all commit
+```
+git log --oneline --graph
+```
+
+Revert
+```
+git reset --hard <hash>
+```
+```
+git push origin master --force
+```
+
 # Remove Account FroM Windows
 
 Credential Manager → Windows Credentials.
