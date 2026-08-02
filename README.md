@@ -15,15 +15,25 @@ git push -u origin master
 
 ```
 git init
+git add .
+git commit  -m "Upload project"
+
+
 git remote add origin https://github.com/Mr-Beta-Version/REPONAME.git
 git remote set-url origin https://github.com/Mr-Beta-Version/REPONAME.git
 git remote -v
 
+git push
 ```
 
 Show all commit
 ```
 git log --oneline --graph
+```
+
+Show git files
+```
+git ls-files | findstr __pycache__
 ```
 
 Revert
