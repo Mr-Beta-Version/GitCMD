@@ -105,5 +105,7 @@ git branch -d branch-name  # delete branch
 git push -u origin branch  # upload branch
 ```
 
-* Feature shesh hole `main` e merge
-* Production project-e sorasori `main` e code na likha bhalo practice. 
+Delete Branch From Local
+```
+git branch -d commission-list-show
+```
