@@ -35,7 +35,7 @@ git push origin master --force
 ```
 
 
-Git hard reset if .gitignore not taken
+Git file reset if .gitignore not taken
 ```
 git rm -r --cached .
 git add .
