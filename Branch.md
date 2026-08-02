@@ -1,5 +1,9 @@
 ### Branch Create
 
+```
+git config --global push.autoSetupRemote true
+```
+
 ```bash
 git branch dark-mode
 ```
