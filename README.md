@@ -34,6 +34,15 @@ git reset --hard <hash>
 git push origin master --force
 ```
 
+
+Git hard reset if .gitignore not taken
+```
+git rm -r --cached .
+git add .
+git commit -m "Reapply gitignore"
+git push
+```
+
 # Remove Account FroM Windows
 
 Credential Manager → Windows Credentials.
