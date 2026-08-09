@@ -54,10 +54,16 @@ git push
 ```
 
 # Remove Account FroM Windows
-
+```
 Credential Manager → Windows Credentials.
 Remove This Entry :
 git:https://github.com
 github.com
 GitHub
+```
 
+
+git zip
+```
+git archive --format=zip --output=project.zip HEAD
+```
